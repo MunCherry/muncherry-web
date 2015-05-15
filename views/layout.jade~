@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title #{title} of Mun & Cherry
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      h1 Mun & Cherry
+    .nav
+      block menu
+    .container
+      .main-content
+        block content
+      .sidebar
+        block sidebar
+    footer
+      p In construction: this site is to show the results of Mun and Cherry's hunting for deals.

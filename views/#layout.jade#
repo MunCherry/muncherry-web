@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title #{title} of Mun & Cherry
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+      .left-header
+        em Mun & Cherry
+      .right-header
+        i Together, we serve with hornor!                
+    .nav
+      block menu
+    .container
+      .main-content
+        block content
+      .side-content
+        block side
+    footer
+      p 
+        |In construction: this site is to show the results of Mun and Cherry's hunting for deals.
+
