@@ -13,10 +13,6 @@ html
       block menu
     .container
       .main-content
-        block content
-      .side-content
-        block side
+        block content      
     footer
-      p 
-        |In construction: this site is to show the results of Mun and Cherry's hunting for deals.
-
+      p In construction: this site is to show the results of Mun and Cherry's hunting for deals.
